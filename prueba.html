@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Servidor minecraft</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-roboto">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 px-6 py-4 flex justify-between items-center shadow-md sticky top-0 z-50">
+    <a href="#" class="text-2xl font-bold text-purple-500 hover:text-purple-400">Server DavisicoCRAFT</a>
+    <div class="space-x-6">
+      <a href="#" class="text-gray-400 hover:text-purple-400">HOME</a>
+      <a href="#band" class="text-gray-400 hover:text-purple-400">MAPAS</a>
+      <a href="#tour" class="text-gray-400 hover:text-purple-400">DIRECCIÓN</a>
+      <a href="#contact" class="text-gray-400 hover:text-purple-400">CONTACTO</a>
+    </div>
+    <a class="text-purple-500 hover:text-purple-400"><i class="fa fa-bars"></i></a>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative h-screen bg-cover bg-center" style="background-image: url('./media/foto-minecaft4.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-5xl font-bold text-white">Vive la experiencia de un Server Premium</h1>
+        <p class="mt-4 text-lg text-gray-300">Únete y disfruta construyendo con tus amigos</p>
+        <a href="#tour" class="mt-6 inline-block bg-purple-500 text-gray-900 px-6 py-3 rounded-lg font-bold hover:bg-purple-400">Click para unirte</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Band Section -->
+  <section id="band" class="px-6 py-16 text-center bg-gray-800">
+    <h2 class="text-4xl font-bold text-purple-500">EL SERVER</h2>
+    <p class="text-gray-400 italic mt-4">Construye hasta el infinito y más allá.</p>
+    <p class="text-gray-300 mt-6">Selección de los mejores mapas del servidor survival de minecraft.</p>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md">
+        <img src="./media/foto-minecaft1.png" alt="Band Member" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-purple-500">Mapa 1</h3>
+        <p class="text-gray-400">Árboles de cerezos</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md">
+        <img src="./media/foto-minecaft2.png" alt="Band Member" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-purple-500">Mapa 2</h3>
+        <p class="text-gray-400">Prado de orquídeas</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md">
+        <img src="./media/foto-minecaft3.jpg" alt="Band Member" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-purple-500">Mapa 3</h3>
+        <p class="text-gray-400">Castillo medieval</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Dates Section -->
+  <section id="tour" class="px-6 py-16 bg-gray-700">
+    <h2 class="text-4xl font-bold text-purple-500 text-center">DIRECCIÓN</h2>
+    <p class="text-gray-400 italic text-center mt-2">Únete al servidor</p>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md text-center">
+        <img src="./media/foto-minecaft5.jpg" alt="New York" class="w-full h-40 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-gray-50">DavisicoCRAFT Survival</h3>
+        <p class="text-gray-400">1.21.1</p>
+        <button class="mt-4 bg-purple-500 text-gray-900 px-4 py-2 rounded hover:bg-purple-400">Únete</button>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md text-center">
+        <img src="./media/foto-minecaft7.jpg" alt="New York" class="w-full h-40 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-gray-50">DavisicoCRAFT Minecraft Extremo</h3>
+        <p class="text-gray-400">1.21.1</p>
+        <button class="mt-4 bg-purple-500 text-gray-900 px-4 py-2 rounded hover:bg-purple-400">Únete</button>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md text-center">
+        <img src="./media/foto-minecaft6.jpg" alt="New York" class="w-full h-40 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-semibold text-gray-50">DavisicoCRAFT MiniGames</h3>
+        <p class="text-gray-400">1.21.1</p>
+        <button class="mt-4 bg-purple-500 text-gray-900 px-4 py-2 rounded hover:bg-purple-400">Únete</button>
+      </div>
+      <!-- Repeat similar blocks for other tour dates -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="flex items-center justify-center h-screen bg-gray-800 text-center">
+    <div class="w-full max-w-md">
+      <h2 class="text-4xl font-bold text-purple-500">CONTACTO</h2>
+      <p class="text-gray-400 italic mt-4">Estamos para ayudarte</p>
+      <form class="mt-10 space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full px-4 py-2 bg-gray-700 text-white rounded border border-gray-600 focus:outline-none focus:border-purple-500">
+        <input type="email" placeholder="Email" class="w-full px-4 py-2 bg-gray-700 text-white rounded border border-gray-600 focus:outline-none focus:border-purple-500">
+        <textarea placeholder="Mensaje" class="w-full px-4 py-2 bg-gray-700 text-white rounded border border-gray-600 focus:outline-none focus:border-purple-500"></textarea>
+        <button type="submit" class="w-full bg-purple-500 text-gray-900 px-4 py-2 rounded font-bold hover:bg-purple-400">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center py-6">
+    <div class="space-x-4 text-gray-50">
+      <i class="fa fa-facebook-official"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-snapchat"></i>
+      <i class="fa fa-pinterest-p"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+  </footer>
+</body>
+</html>
